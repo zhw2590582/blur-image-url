@@ -29,7 +29,6 @@
         );
         canvas.toBlob(function(blob) {
           resolve(URL.createObjectURL(blob));
-          img.onload = null;
         });
       };
       img.src = url;
