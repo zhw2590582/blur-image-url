@@ -11,7 +11,7 @@ $ npm install blur-image-url
 Or install with `yarn`
 
 ```
-$ yarn add stackBlurToUrl
+$ yarn add blur-image-url
 ```
 
 ```js
