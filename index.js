@@ -19,7 +19,7 @@
         canvas.width = w;
         canvas.height = h;
         var context = canvas.getContext('2d');
-        context.filter = `blur(${radius}px)`;
+        context.filter = 'blur(' + radius + 'px)';
         context.drawImage(
           img,
           -radius,
